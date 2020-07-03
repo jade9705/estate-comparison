@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #b7b4b4;
+  padding-bottom: 0.7em; 
+  border-bottom: 0.01rem #b7b4b4 solid;
+}
+
+.estate-list-container {
+  display: flex;
+  padding: 0.5em 8vw;
+
+  .estate {
+   max-width: 10vw;
+   
+   img {
+     max-height: 10vh;
+     width: 8.2vw;
+   }
+
+   &__name {
+      font-size: 0.5em;
+      background-color: #fff;
+   }
+  }
+}
+
